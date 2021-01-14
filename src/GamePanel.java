@@ -71,6 +71,7 @@ public class GamePanel extends JPanel implements ActionListener {
         }
 
         switch (direction) {
+            // These switch ccases only work in Java SE 14.
             case 'U' -> y[0] = y[0] - UNIT_SIZE;
             case 'D' -> y[0] = y[0] + UNIT_SIZE;
             case 'L' -> x[0] = x[0] - UNIT_SIZE;
